@@ -1,0 +1,24 @@
+{
+   "compilerOptions": {
+       "lib": ["es6", "es2017", "dom"],
+       "types": ["node"],
+       "allowJs": true,
+       "baseUrl": ".",
+       "module": "commonjs",
+       "moduleResolution": "node",
+       "experimentalDecorators": true,
+       "esModuleInterop": true,
+       "emitDecoratorMetadata": true,
+       "noImplicitAny": true,
+       "outDir": "./dist/",
+       "paths": {
+           "*": ["node_modules/*", "vendor/*"]
+       },
+       "skipLibCheck": true,
+       "sourceMap": true,
+       "target": "es6",
+       "typeRoots": ["node_modules/@types"],
+       "resolveJsonModule": true
+   },
+   "exclude": ["dist"]
+}

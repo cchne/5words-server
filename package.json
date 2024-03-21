@@ -1,0 +1,21 @@
+{
+  "name": "swords-js",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node -r dotenv/config ./dist/src/index.js",
+    "dev": "tsc && node -r dotenv/config ./dist/src/index.js"
+  },
+  "dependencies": {
+    "@types/ws": "^8.5.10",
+    "dotenv": "^16.4.5",
+    "uuid": "^9.0.1",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.8",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
+}
